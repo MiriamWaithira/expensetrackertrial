@@ -1,0 +1,22 @@
+{
+  "name": "expense_tracker_trial",
+  "version": "1.0.0",
+  "description": "Great work last week! You've mastered data manipulation in your Expense Tracker. This week, we'll develop a web application using Node.js, Express, and MySQL to manage personal expenses. The application should provide user authentication and functionalities for adding, viewing, and (optionally) editing/deleting expenses.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.11.0"
+  }
+}
